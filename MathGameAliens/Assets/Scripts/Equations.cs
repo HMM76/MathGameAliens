@@ -28,10 +28,10 @@ public class Equations : MonoBehaviour
     public int sum4;
     public int randomsum;
 
-    string strsum1;
-    string strsum2;
-    string strsum3;
-    string strsum4;
+    public string strsum1;
+    public string strsum2;
+    public string strsum3;
+    public string strsum4;
 
     public GameObject ufotxt1;
     public GameObject ufotxt2;
@@ -170,7 +170,7 @@ public class Equations : MonoBehaviour
             correctufo = true;
             PlayerC.transform.position = new Vector2(150, PlayerC.transform.position.y);
 
-            alienButtons.UFObutton1.transform.position = new Vector2(alienButtons.UFObutton1.transform.position.x, 450);
+            alienButtons.UFObutton1.transform.position = new Vector2(alienButtons.UFObutton1.transform.position.x, 300);
 
             alienButtons.laser1.SetActive(true);
             alienButtons.laser2.SetActive(false);
@@ -207,7 +207,7 @@ public class Equations : MonoBehaviour
             correctufo = true;
             PlayerC.transform.position = new Vector2(355, PlayerC.transform.position.y);
 
-            alienButtons.UFObutton2.transform.position = new Vector2(alienButtons.UFObutton2.transform.position.x, 450);
+            alienButtons.UFObutton2.transform.position = new Vector2(alienButtons.UFObutton2.transform.position.x, 300);
 
             alienButtons.laser1.SetActive(false);
             alienButtons.laser2.SetActive(true);
@@ -244,7 +244,7 @@ public class Equations : MonoBehaviour
             correctufo = true;
             PlayerC.transform.position = new Vector2(555, PlayerC.transform.position.y);
 
-            alienButtons.UFObutton3.transform.position = new Vector2(alienButtons.UFObutton3.transform.position.x, 450);
+            alienButtons.UFObutton3.transform.position = new Vector2(alienButtons.UFObutton3.transform.position.x, 300);
 
             alienButtons.laser1.SetActive(false);
             alienButtons.laser2.SetActive(false);
@@ -280,7 +280,7 @@ public class Equations : MonoBehaviour
             correctufo = true;
             PlayerC.transform.position = new Vector2(755, PlayerC.transform.position.y);
 
-            alienButtons.UFObutton4.transform.position = new Vector2(alienButtons.UFObutton4.transform.position.x, 450);
+            alienButtons.UFObutton4.transform.position = new Vector2(alienButtons.UFObutton4.transform.position.x, 300);
             alienButtons.laser1.SetActive(false);
             alienButtons.laser2.SetActive(false);
             alienButtons.laser3.SetActive(false);

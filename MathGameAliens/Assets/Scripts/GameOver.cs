@@ -21,7 +21,7 @@ public class GameOver : MonoBehaviour
 
     public void Quit()
     {
-        Application.Quit();
+        SceneManager.LoadScene("Start");        
         Time.timeScale = 1;
         print("quitted");
     }
